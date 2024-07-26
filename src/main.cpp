@@ -3,7 +3,7 @@
 #include <chrono>        // Required for measuring time
 #include "heat_solver.h" // Header file for heat solution functions
 
-const int nx = 10000;       // Number of grid points
+const int nx = 1000000;       // Number of grid points
 const double alpha = 0.01;  // Thermal diffusivity
 const double dt = 0.1;      // Time step
 const double dx = 1.0;      // Grid spacing
